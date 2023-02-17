@@ -1,0 +1,443 @@
+.html,
+.body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.Main {
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.bars {
+    position: relative;
+    left: 25px;
+    font-size: 18px;
+    color: #606367;
+    cursor: pointer;
+}
+
+.title {
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    font-size: 1.375em;
+    font-weight: 400;
+    color: #3c4043;
+    line-height: 1.75rem;
+}
+
+.Main2 {
+    text-align: center;
+    position: relative;
+    right: 60px;
+    font-size: 0.875em;
+    color: #606367;
+    display: flex;
+}
+
+.title1,
+.title2,
+.title3 {
+    cursor: pointer;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.375em;
+    font-weight: 400;
+    color: #3c4043;
+    line-height: 1.75rem;
+    align-items: center;
+}
+
+.title2 {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.face {
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+
+.log {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 25px;
+}
+
+.line {
+    border-top: 1px solid rgb(185, 182, 182);
+    position: relative;
+    top: 20px;  
+    border-color: rgb(184, 179, 179);
+}
+
+.BookDraw {
+    display: flex;
+    justify-content: center;
+    direction: column;
+    position: relative;
+}
+.Book {
+    position: relative;
+    left: 400px;
+    top: 36px;
+    border-radius: 10px;
+}
+
+.CLN {
+    position: relative;
+    z-index: 1;
+}
+
+.classnum {
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    color: white;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 28px;
+    left: 420px;
+}
+
+.work {
+    display: block;
+    font-size: 0.875rem;
+    color: #3c4043;
+    position: relative;
+    left:18px;
+    top:12px;
+}
+
+.small1,
+.small2 {
+    font-size: 0.8125rem;
+    color: #bababa;
+}
+
+.small1{
+    position: relative;
+    left:17px;
+    top:10px;
+}
+
+.small2{
+    position: relative;
+    top:10px;
+    left:17px;
+}
+
+.All {
+    cursor: pointer;
+    position: relative;
+    left: 120px;
+    color: #427981;
+    font-size:14px;
+    height: 48px;
+}
+
+.Homework {
+    position: relative;
+    top: 12px;
+    border: 0.5px solid #dbdce0;
+    border-radius: 10px;
+    width: 230px;
+    height: 140px;  
+    left: 400px;
+}
+
+.insert {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    right:50px;
+}
+
+.T {
+    width: 100%;
+}
+
+.AW {
+    width: 100%;
+}
+
+.write {
+    cursor: pointer;
+    position: relative;
+    left:50px;
+    height: 70px;
+    top:11px;
+    border-radius: 7px; 
+    border: 0.5px solid #d2d3d3;
+    text-indent: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+}
+
+.picture{
+    position: relative;
+    height: 40px;
+    z-index: 1;
+    display: flex;
+    top:28px;
+    left:110px;
+    border-radius: 25px;
+}
+
+.insert {   
+    top: -140px;
+    left: 10px;
+}
+
+.write2 {
+    display: flex;
+    justify-content: center;
+}
+
+.writebox {
+    cursor: pointer;
+    position: relative;
+    left:80px;
+    height: 220px;
+    width: 730px;
+    border-radius: 7px 7px 0 0;
+    border: 0.5px solid #d2d3d3;
+    margin-top: 35px;
+    top: -140px;
+}
+
+.picture2 {
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 40px;
+    z-index: 1;
+}
+
+
+
+.PIC{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: flex-start;
+    height: 45px;
+    font-size: 15px;
+}
+
+.write3text{
+    position: relative;
+    top: 12px;  
+    left: 30px;
+    align-content: space-between;
+}
+
+.Ary{
+    border: 0.5px solid rgb(210, 209, 209);
+    height: 70px;
+    width: 18vw;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.Three2 {
+    position: relative;
+    left: 540px;
+}
+
+.picture3{
+    border-radius: 10px;
+}
+
+.HW2 {
+    position: relative;
+    left: 15px;
+}
+
+.AryG {
+    position: relative;
+    left: 15px;
+}
+
+.textBox {
+    position: relative;
+    top: 12px;  
+    left: 30px;
+    align-content: space-between;
+}   
+
+.writeBox3 {
+    position: relative;
+    display: flex;
+    width: 730px;
+    height: 72px;
+    left: -1px;
+    top: 50px;
+    border: rgb(210, 209, 209) solid 0.1px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.ClassAnswerBox{
+    display: flex;
+    align-items: center;
+    margin-left:20px;
+    width: 100%;
+    
+}
+
+.ClassAnswer{
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    text-indent: 10px;
+    border: 0.5px solid  rgb(210, 209, 209);
+    cursor: pointer;
+}
+
+.PlayButton {
+    position: relative;
+    left: -20px;
+}   
+
+.picture4 {
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.write3 {
+    display: flex;
+    justify-content: center;
+}
+
+.writebox4 {
+    cursor: pointer;
+    position: relative;
+    left:80px;
+    height: 220px;
+    width: 730px;
+    border-radius: 7px 7px 0 0;
+    border: 0.5px solid #d2d3d3;
+    margin-top: 35px;
+    top: -80px;
+}
+
+.picture5 {
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 40px;
+    z-index: 1;
+}
+
+.PIC2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: flex-start;
+    height: 45px;
+    font-size: 15px;
+}
+
+.write5text{
+    position: relative;
+    top: 12px;  
+    left: 30px;
+    align-content: space-between;
+}
+
+.HW3 {
+    position: relative;
+    top: 120px;
+    left: 15px;
+}
+
+.Ary2 {
+    position: relative;
+    left: 15px;
+}
+
+.Ary2{
+    border: 0.5px solid rgb(210, 209, 209);
+    height: 70px;
+    width: 18vw;
+    border-radius: 8px;
+    display: flex;
+    top: 120px;
+}
+
+.picture4 {
+    border-radius: 25px;
+}
+
+
+
+.picture6 {
+    border-radius: 25px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.textBox2 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.writebox6 {
+    position: relative;
+    display: flex;
+    width: 730px;
+    height: 72px;
+    left: -1px;
+    top: 175px; 
+    border: rgb(210, 209, 209) solid 0.1px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.picture7 {
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.ClassAnswerBox2{
+    display: flex;
+    align-items: center;
+    margin-left:20px;
+    width: 100%;
+    
+}
+
+.ClassAnswer2{
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    text-indent: 10px;
+    border: 0.5px solid  rgb(210, 209, 209);
+    cursor: pointer;
+}
